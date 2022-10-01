@@ -17,7 +17,7 @@ function About() {
             </div>
             <h1 className="aboutName">Roald Yen Soriano</h1>
             <div className="aboutDescription">
-                <p>I am someone who is enthusiastic about technology. I am most especially eager to the concept of creating web-based applications and programs by means of using modern technologies.</p>
+                <p>As someone who is enthusiastic about technology, I am most especially eager to the concept of creating web-based applications and programs by means of using modern technologies.</p>
                 <p>I am very interested in doing UI/UX Designs, and I am in the process of continuously improving my skills to become a well-known UI/UX Designer in the IT industry. I also enjoy doing Front-End Development in Web Development and my passion is focused on designing and creating appealing interfaces for both Web and Mobile Applications.</p>
                 <p>I am currently taking up my Bachelor's Degree in Information Technology, Majoring in Web and Mobile Application Development at the University of Santo Tomas.</p>
             </div>
