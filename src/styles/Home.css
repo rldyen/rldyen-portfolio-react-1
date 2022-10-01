@@ -23,6 +23,7 @@
     height: 60px;
     font-weight: 50;
     color: white;
+    margin-left: 120px;
   }
   
   .headerContainer p {
@@ -30,6 +31,7 @@
     font-size: 24px;
     font-weight: lighter;
     color: white;
+    margin-left: 120px;
   }
   
   .headerContainer button {
@@ -44,6 +46,7 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+    margin-left: 120px;
   }
   
   .headerContainer button:hover {
