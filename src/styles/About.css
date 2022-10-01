@@ -1,0 +1,90 @@
+.about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  }
+  
+  .about .aboutLeft {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .about .aboutRight {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about .aboutName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+
+  .aboutHello{
+    margin-left: 30px;
+    padding: 10px;
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    width: 120px;
+    border-radius: 7px;
+  }
+
+  .aboutDescription {
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: justify;
+  }
+
+  .aboutEducation{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    width: 120px;
+    border-radius: 7px;
+  }
+
+  .aboutEducationList {
+    width: 5vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .educationItems {
+    text-align: center;
+    border-radius: 15px;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .educationItems:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+  }
+  
+  .educationItems div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .educationName{
+    font-weight: bold;
+  }
